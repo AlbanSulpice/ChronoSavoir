@@ -1,0 +1,127 @@
+/* Reset des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 200px; /* Ajustez la taille de l'image selon vos besoins */
+    height: auto;
+    margin-right: auto; /* Pour la placer à gauche */
+}
+/* En-tête */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Styles pour le lien "Article du jour" */
+.article-link {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+    background-color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+}
+
+.article-link:hover {
+    background-color: #ffcc00;
+}
+
+/* Styles pour la section "Catégories d'articles" */
+.articles {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.articles h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.articles ul {
+    list-style: none;
+    padding: 0;
+}
+
+.articles li {
+    margin-bottom: 10px;
+}
+
+.articles a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.articles a:hover {
+    color: #ff4500;
+}
+
+/* Styles pour la section "Qui sommes nous ?" */
+.presentation {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.presentation h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.presentation p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+}
