@@ -1,0 +1,131 @@
+/* Reset des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em; /* Ajustez la taille selon vos préférences */
+    margin: 0;
+}
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+header img {
+    width: 200px; /* Ajustez la taille de l'image selon vos besoins */
+    height: auto;
+    margin-right: auto; /* Pour la placer à gauche */
+}
+/* En-tête */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Formulaire */
+fieldset {
+    margin: 50px auto;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Bouton d'envoi */
+form > label {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form > label:hover {
+    background-color: #555;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #555;
+}
