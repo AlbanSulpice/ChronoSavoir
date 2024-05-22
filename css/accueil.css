@@ -1,4 +1,4 @@
-/* Reset des marges et des paddings */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,29 +6,25 @@
 }
 
 header img {
-    width: 200px; /* Ajustez la taille de l'image selon vos besoins */
+    width: 100px;
     height: auto;
-    margin-right: auto; /* Pour la placer à gauche */
 }
-/* En-tête */
+
 header {
     background-color: #333;
     padding: 20px;
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
+
 nav {
-    display: flex;
-    align-items: center;
     font-family: Arial, sans-serif;
 }
 nav a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
-    transition: background-color 0.3s;
 }
 
 nav a:hover {
@@ -37,7 +33,6 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* Pied de page */
 footer {
     background-color: #333;
     color: white;
@@ -51,18 +46,21 @@ footer p {
     margin-bottom: 10px;
 }
 
+/*Bienvenue sur Chronosavoir*/
+.bienvenue{
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+}
+
 /* Styles pour le lien "Article du jour" */
 .article-link {
     display: block;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2.5em;
     color: #333;
-    text-decoration: none;
     background-color: #ffd700;
     padding: 10px 20px;
-    border-radius: 5px;
-    margin: 20px auto;
-    transition: background-color 0.3s;
 }
 
 .article-link:hover {
@@ -72,14 +70,11 @@ footer p {
 /* Styles pour la section "Catégories d'articles" */
 .articles {
     background-color: #f2f2f2;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 10px;
-    text-align: center;
+    padding : 50px;
 }
 
 .articles h2 {
-    font-size: 1.8em;
+    font-size: 2.3em;
     margin-bottom: 20px;
 }
 
@@ -90,6 +85,7 @@ footer p {
 
 .articles li {
     margin-bottom: 10px;
+    font-size: 1.8em;
 }
 
 .articles a {
@@ -120,8 +116,4 @@ footer p {
 .presentation p {
     font-size: 1.2em;
     line-height: 1.6;
-}
-
-h1 {
-    text-align: center;
 }

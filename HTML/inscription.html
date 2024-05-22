@@ -7,43 +7,43 @@
     </head>
     <body>
         <header>
+            <a><img src = ../img/ImageOfficielle.png alt = "Chronosavoir_img"></a>
             <nav>
                 <a href="./accueil.html">Accueil</a>
                 <a href="../articles/01011892.html">Article du Jour</a>
-                <a href="./inscription.html">S'inscrire</a>
                 <a href="./seConnecter.html">Se connecter</a>
             </nav>
-            <a><img src = ..\img\ImageOfficielle.png alt = "Chronosavoir_img" width="100" height="100"></a>
         </header>
         <h1>ChronoSavoir</h1>
         <fieldset>
             <legend>Vos informations</legend>
             <form>
-                <label for="text_input">Nom :</label>
-                <input type="text"><br>
+                <label for="last_name_input">Nom :</label>
+                <input type="text" id="last_name_input"><br>
 
-                <label for="text_input">Prénom :</label>
-                <input type="text"><br>
+                <label for="first_name_input">Prénom :</label>
+                <input type="text" id="first_name_input"><br>
 
                 <label for="date_input">Date de naissance :</label>
-                <input type="date"><br>
+                <input type="date" id="date_input"><br>
 
                 <label for="mail_input">Adresse mail:</label>
-                <input type="mail"><br>
+                <input type="email" id="mail_input"><br>
 
-                <label for="text_input">Mot de passe :</label>
-                <input type="text"><br>
+                <label for="password_input">Mot de passe :</label>
+                <input type="text" id="password_input"><br>
 
-                <label for="text_input">Confirmer le mot de passe :</label>
-                <input type="text"><br>
+                <label for="password_confirm_input">Confirmer le mot de passe :</label>
+                <input type="text" id="password_confirm_input"><br>
 
                 <label for="select_input">Statut :</label>
-                <select>
-                    <option value="option1">Célibataire</option>
-                    <option value="option2">Marié</option>
-                    <option value="option3">Pacsé</option>
-                    <option value="option4">Divorcé</option>
-                    <option value="option5">Veuf</option>
+                <select id="select_input">
+                    <option value="option1">Choisir</option>
+                    <option value="option2">Célibataire</option>
+                    <option value="option3">Marié</option>
+                    <option value="option4">Pacsé</option>
+                    <option value="option5">Divorcé</option>
+                    <option value="option6">Veuf</option>
                 </select><br>
             </form>
         </fieldset>
@@ -51,30 +51,27 @@
             <legend>Personnaliser votre newsletter</legend>
             <ol>
                 <li>A quelle fréquence souhaitez-vous avoir de nos nouvelles ?</li>
-                <form>
-                    <label></label><br>
-                    <input type="radio" value="radio1">
+                <form class="frequence">
+                    <input type="radio" id="radio1" value="radio1">
                     <label for="radio1">a. Quotidienne</label><br>
-                    <input type="radio" value="radio2">
+                    <input type="radio" id="radio2" value="radio2">
                     <label for="radio2">b. Hebdomadaire</label><br>
-                    <input type="radio" value="radio3">
+                    <input type="radio" id="radio3" value="radio3">
                     <label for="radio3">c. Mensuel</label><br><br>
                 </form>
                 <li>A quels sujets souhaitez-vous vous intéresser ?</li>
-                <form>
-                    <label></label><br>
-                    <input type="checkbox" value="checkbox1">
+                <form class="sujets">
+                    <input type="checkbox" id="checkbox1" value="checkbox1">
                     <label for="checkbox1">a. Conflits/Géo-politique</label><br>
-                    <input type="checkbox" value="checkbox2">
+                    <input type="checkbox" id="checkbox2" value="checkbox2">
                     <label for="checkbox2">b. Réformes/Inventions/Découvertes scientifiques</label><br>
-                    <input type="checkbox" value="checkbox3">
+                    <input type="checkbox" id="checkbox3" value="checkbox3">
                     <label for="checkbox3">c. Personnalités historiques</label><br><br>
                 </form>
                 <li>Donnez un exemple d'évènement historique qui vous fascine :</li>
-                <form>
-                    <br>
-                    <label for="text_input"></label>
-                    <input type="text"><br>
+                <form class="evenement">
+                    <label for="evenement_input"></label>
+                    <input type="text" id="evenement_input">
                 </form>
             </ol>
             <form>
