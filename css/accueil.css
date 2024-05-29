@@ -119,3 +119,29 @@ footer p {
     font-size: 1.2em;
     line-height: 1.6;
 }
+
+#chat-box {
+    height: 400px;
+    width: auto;
+    background-color: white;
+    overflow: scroll;
+}
+
+#user-input {
+    display:flex;
+    justify-content: left;
+    width: 800px;
+}
+
+#button-chat-box{
+    background-color: #2e7d32; /* Couleur verte */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: auto;
+    height: 36px;
+    justify-content: center;
+    margin-top:10px;
+}

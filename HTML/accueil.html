@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel= "stylesheet" href="../css/accueil.css">
         <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <script type="text/javascript" src="../javascript/chatbot.js"></script>
         <title>ChronoSavoir - Accueil</title>
     </head>
     <body>
@@ -24,6 +25,18 @@
                 <li><a href="guerresreformes.html">Guerres/Réformes</a></li>
                 <li><a href="grandsevenements.html">Grands évènements</a></li>
             </ol>
+        </section>
+        <section>
+            <fieldset>
+                <h1>Chat Box - ChronoSavoir</h1>
+                <div id="chat-box">
+
+                </div>
+                <div style="display: flex">
+                    <input type="text" id="user-input" placeholder="Entrez votre message" required>
+                    <button id="button-chat-box" type="submit" onclick='fetchJSON("../json/intents.json")'>Envoyer</button>
+                </div>
+            </fieldset>
         </section>
         <section class="presentation">
             <h2>Qui sommes nous ?</h2>
