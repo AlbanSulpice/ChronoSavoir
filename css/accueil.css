@@ -13,8 +13,10 @@ header img {
 header {
     background-color: #333;
     padding: 20px;
+    height: 120px;
     color: white;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 

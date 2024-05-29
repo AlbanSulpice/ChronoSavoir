@@ -9,6 +9,7 @@
 header {
     background-color: #333;
     color: white;
+    height: 120px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -41,6 +42,8 @@ nav a:hover {
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 20px;
+    background-color: dimgrey;
+    border-radius: 3px;
 }
 
 .article h2 {

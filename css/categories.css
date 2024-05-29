@@ -5,17 +5,20 @@
     box-sizing: border-box;
 }
 
-header img {
-    width: 100px;
-    height: auto;
-}
-
 header {
     background-color: #333;
     padding: 20px;
+    height: 120px;
     color: white;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+
 }
 
 nav {
@@ -53,3 +56,16 @@ footer p {
     margin-top: 20px;
 }
 
+.article-link {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.article-link:hover {
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+}
