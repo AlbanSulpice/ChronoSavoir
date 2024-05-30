@@ -16,64 +16,20 @@
       "responses": ["De rien ! C'est un plaisir de vous aider."]
     },
     {
-      "tag": "greenit_definition",
-      "patterns": ["Qu'est-ce que la GreenIT ?", "Définition de la GreenIT", "C'est quoi la GreenIT ?"],
-      "responses": ["La GreenIT, ou informatique verte, vise à réduire l'empreinte écologique des technologies de l'information et de la communication (TIC). Cela inclut l'optimisation de la consommation énergétique, la gestion responsable des déchets électroniques, et la promotion de pratiques durables dans le domaine de l'informatique."]
+      "tag": "chronosavoir_definition",
+      "patterns": ["Qu'est-ce que Chronosavoir ?", "Définition de Chronosavoir", "C'est quoi Chronosavoir ?"],
+      "responses": ["Chronosavoir est un site web qui permet de découvrir et de s'informer sur des événements historiques qui se sont produits le même jour, mais à différentes années. Grâce à Chronosavoir, les utilisateurs peuvent explorer des faits marquants, des anecdotes et des événements clés ayant eu lieu à travers les siècles, tout en étant connectés à la date actuelle. Que ce soit pour des raisons éducatives, culturelles ou par simple curiosité, Chronosavoir offre une perspective unique sur l'histoire en mettant en lumière ce qui s'est passé ce jour-là dans le passé."]
     },
     {
-      "tag": "greenit_practices",
-      "patterns": ["Quelles sont les pratiques GreenIT ?", "Comment adopter la GreenIT ?", "Conseils pour une informatique plus verte"],
-      "responses": ["Il existe de nombreuses pratiques pour adopter la GreenIT, comme l'utilisation de matériel éco-énergétique, la virtualisation des serveurs, la mise en veille des équipements, le recyclage des composants électroniques, et la sensibilisation des utilisateurs aux bonnes pratiques."]
+      "tag": "10dec1911",
+      "patterns": ["Qu'est-il arrivé le 10 décembre 1911 ?", "Événements du 10 décembre 1911", "10 décembre 1911", "10/12/1911", "Marie Curie", "Prix Nobel de chimie"],
+      "responses" : "Voici un lien vers notre article la concernant :",
+      "lien" :  "../categories/personnalité/10121911.html"
     },
     {
-      "tag": "energy_efficiency",
-      "patterns": ["Comment améliorer l'efficacité énergétique de mon infrastructure ?", "Conseils pour réduire la consommation énergétique"],
-      "responses": ["Pour améliorer l'efficacité énergétique, vous pouvez envisager de remplacer les équipements énergivores par des modèles plus économes, d'optimiser la ventilation et le refroidissement, de mettre en place des politiques d'économie d'énergie, et de surveiller la consommation à l'aide d'outils de gestion."]
-    },
-    {
-      "tag": "renewable_energy",
-      "patterns": ["Comment intégrer les énergies renouvelables dans mon infrastructure informatique ?", "Utilisation des énergies renouvelables en informatique"],
-      "responses": ["L'intégration des énergies renouvelables dans votre infrastructure informatique peut passer par l'installation de panneaux solaires ou de turbines éoliennes pour alimenter vos serveurs, ou encore par l'achat de crédits carbone pour compenser votre empreinte carbone."]
-    },
-    {
-      "tag": "carbon_footprint",
-      "patterns": ["Comment calculer mon empreinte carbone informatique ?", "Outils pour mesurer l'empreinte carbone de mon infrastructure"],
-      "responses": ["Il existe divers outils en ligne pour calculer votre empreinte carbone informatique, en prenant en compte la consommation d'énergie, les émissions liées à la fabrication et au transport du matériel, ainsi que la gestion des déchets électroniques."]
-    },
-    {
-      "tag": "additional_resources",
-      "patterns": ["Où puis-je trouver plus d'informations sur la GreenIT ?", "Ressources pour approfondir la GreenIT"],
-      "responses": ["Vous pouvez consulter des sites spécialisés, des blogs, des rapports de recherche, ainsi que des communautés en ligne dédiées à la GreenIT pour trouver plus d'informations et de conseils."]
-    },
-    {
-      "tag": "server_virtualization",
-      "patterns": ["Qu'est-ce que la virtualisation des serveurs ?", "Avantages de la virtualisation des serveurs"],
-      "responses": ["La virtualisation des serveurs consiste à exécuter plusieurs machines virtuelles sur un seul serveur physique. Cela permet une utilisation plus efficace des ressources matérielles, une meilleure gestion des charges de travail, une réduction de la consommation d'énergie et des coûts opérationnels, ainsi qu'une plus grande flexibilité et évolutivité de l'infrastructure."]
-    },
-    {
-      "tag": "ewaste_management",
-      "patterns": ["Comment gérer les déchets électroniques de manière responsable ?", "Recyclage des déchets électroniques"],
-      "responses": ["Pour gérer les déchets électroniques de manière responsable, vous pouvez privilégier le recyclage et la réutilisation des équipements, faire appel à des entreprises spécialisées dans le recyclage électronique, et sensibiliser vos utilisateurs à la nécessité de réduire leur consommation et de recycler leurs appareils en fin de vie."]
-    },
-    {
-      "tag": "green_office_practices",
-      "patterns": ["Comment promouvoir des pratiques GreenIT au sein de mon entreprise ?", "Initiatives GreenIT pour les entreprises"],
-      "responses": ["Pour promouvoir des pratiques GreenIT au sein de votre entreprise, vous pouvez mettre en place des politiques d'achat responsables, sensibiliser et former vos employés aux bonnes pratiques, optimiser la gestion des ressources informatiques, et évaluer régulièrement l'impact environnemental de vos activités."]
-    },
-    {
-      "tag": "data_center_efficiency",
-      "patterns": ["Comment améliorer l'efficacité énergétique de mon centre de données ?", "Optimisation des centres de données"],
-      "responses": ["Pour améliorer l'efficacité énergétique de votre centre de données, vous pouvez consolider les serveurs pour réduire le nombre de machines en fonctionnement, optimiser le refroidissement en utilisant des techniques telles que la circulation d'air frais, et adopter des technologies de gestion de l'alimentation pour réduire la consommation électrique des équipements."]
-    },
-    {
-      "tag": "green_it_certifications",
-      "patterns": ["Quelles sont les certifications GreenIT disponibles ?", "Formation GreenIT"],
-      "responses": ["Il existe plusieurs certifications GreenIT disponibles, telles que le label Energy Star, la certification LEED (Leadership in Energy and Environmental Design), et des programmes de formation spécifiques à la GreenIT proposés par divers organismes et institutions."]
-    },
-    {
-      "tag": "green_it_policy",
-      "patterns": ["Comment élaborer une politique GreenIT pour mon entreprise ?", "Politique environnementale pour les technologies de l'information"],
-      "responses": ["Pour élaborer une politique GreenIT pour votre entreprise, vous pouvez définir des objectifs de réduction de l'empreinte carbone, encourager l'achat de matériel éco-énergétique, mettre en place des mesures d'économie d'énergie et de gestion des déchets, et impliquer l'ensemble des parties prenantes dans la démarche."]
+      "tag": "11fev1990",
+      "patterns": ["Qu'est-il arrivé le 11 février 1990 ?", "Événements du 11 février 1990", "11 février 1990", "11/02/1990", "Nelson Mandela", "Libération de Nelson Mandela"],
+      "responses" : ["Voici un lien vers notre article la concernant :" ../categories/personnalité/11021990.html]
     },
     {
       "tag": "fallback",
