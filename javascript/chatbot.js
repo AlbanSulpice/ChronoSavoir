@@ -14,6 +14,14 @@ class ChatHistory{
 
 const chatHistory = new ChatHistory();
 
+// Il s'agit d'un écouteur d'événements qui permet d'envoyer le message au chatbot avec la touche entrée
+document.getElementById('user-input').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();  // Empêche le comportement par défaut de la touche Enter
+        document.getElementById('button-chat-box').click();
+    }
+});
+
 //Fonction pour récupérer et traiter le JSON
 function fetchJSON(url) {
     // Récupérer le JSON à partir de l'URL fournie
