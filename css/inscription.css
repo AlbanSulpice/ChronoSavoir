@@ -78,6 +78,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="date"],
+input[type="password"],
 select {
     width: calc(100% - 160px);
     padding: 10px;

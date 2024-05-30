@@ -23,7 +23,7 @@
     {
       "tag": "10dec1911",
       "patterns": ["Qu'est-il arrivé le 10 décembre 1911 ?", "Événements du 10 décembre 1911", "10 décembre 1911", "10/12/1911", "Marie Curie", "Prix Nobel de chimie"],
-      "responses" : ["Voici un lien vers notre article la concernant :"]
+      "responses" : ["Voici un lien vers notre article la concernant : ../categories/personnalité/10121911.html"]
     },
     {
       "tag": "11fev1990",
