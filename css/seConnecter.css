@@ -75,7 +75,7 @@ label {
     color: #333;
 }
 
-input[type="mail"],
+input[type="email"],
 input[type="text"] {
     width: calc(100% - 160px);
     padding: 10px;
