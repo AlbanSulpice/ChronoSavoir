@@ -7,6 +7,7 @@
         <script type="text/javascript" src="../javascript/chatbot.js"></script>
         <title>ChronoSavoir - Accueil</title>
     </head>
+
     <body>
         <header>
             <a><img src = ../img/ImageOfficielle.png alt = "Chronosavoir_img" width="100" height="100"></a>
@@ -27,29 +28,32 @@
             </ol>
         </section>
 
-        <fieldset>
-            <h1>Chat Box - ChronoSavoir</h1>
-            <div id="chat-box">
-            </div>
-            <div style="display: flex">
-                <input type="text" id="user-input" placeholder="Entrez votre message" required>
-                <button id="button-chat-box" type="submit" onclick='fetchJSON("../json/intents.json")'>Envoyer</button>
-            </div>
-        </fieldset>
+        <section>
+            <fieldset>
+                <h1>Chat Box - ChronoSavoir</h1>
+                <div id="chat-box">
+
+                </div>
+                <div style="display: flex">
+                    <input type="text" id="user-input" placeholder="Entrez votre message" required>
+                    <button id="button-chat-box" type="submit" onclick='fetchJSON("../json/intents.json")'>Envoyer</button>
+                </div>
+            </fieldset>
+        </section>
 
         <section class="presentation">
             <h2>Qui sommes nous ?</h2>
             <p>
                 Nous sommes un groupe de 5 étudiants qui réalisons un projet de groupe.
-                Dans le cadre de notre Projet Transverse, nous avons opté pour la réalisation
-                d'une interface permettant à ses clients de s'instruire régulièrement sur des 
-                évènements passés. Ce projet est l'interface sous forme de site, en attendant d'avoir
-                les compétences pour réaliser une application mobile.
+                En effet, dans le cadre du Delivery Project, nous avons opté pour la réalisation
+                d'une interface permettant à ses clients de s'instruire régulièrement sur des
+                évènements passés.
             </p>
         </section>
+
         <footer>
             <p>©️2024 Grp BDX-1.</p>
             <p>Tous droits réservés.</p>
         </footer>
     </body>
-</html> 
+</html>
