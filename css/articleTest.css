@@ -1,89 +1,129 @@
-/* Reset des marges et des paddings */
-* {
+/* Style pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f5f5f5;
+    background-image: url(../../img/hiroshima.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: cornsilk;
 }
 
-/* Styles pour l'image et les liens de navigation */
+/* Overlay pour lisibilité du texte */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Réduire l'obscurcissement pour plus de visibilité */
+    z-index: -1;
+    backdrop-filter: blur(0.00000001px); /* Réduire le flou pour plus de visibilité */
+}
+
+/* Style pour l'en-tête */
 header {
-    background-color: #333;
-    color: white;
-    height: 120px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-    transition: background-color 0.3s;
-}
-
-nav a:hover {
-    background-color: #555;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-/* Style pour le titre de l'article */
-.article h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.5em;
-    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid #0056b3;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
-/* Styles pour le contenu de l'article */
-.article p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    background-color: dimgrey;
+header img {
+    vertical-align: middle;
+}
+
+header nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 5px 10px;
     border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav a:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Style pour le titre principal */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 30px 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Style pour les sections d'article */
+.article {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
 }
 
 .article h2 {
-    font-size: 1.8em;
-    margin-top: 30px;
+    color: #0056b3;
+    margin-top: 20px;
 }
 
-/* Style pour la colonne de pub */
+.article p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Style pour la barre latérale */
 .sidebar {
-    background-color: #f2f2f2;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
+    margin: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    max-width: 300px;
     text-align: center;
 }
 
-/* Styles pour le footer */
+/* Style pour le pied de page */
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 20px 0;
-    bottom: 0;
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 2px solid #0056b3;
+    color: #888;
+    font-size: 0.9em;
+    box-shadow: 0 -4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
-/* Style pour la mise en page de l'article */
+footer p {
+    margin: 5px 0;
+}
+
+/* Table layout adjustments */
 table {
     width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
 }
 
 td {
     vertical-align: top;
-}
-
-@media (max-width: 768px) {
-    table {
-        display: block;
-    }
-
-    td {
-        display: block;
-    }
 }
