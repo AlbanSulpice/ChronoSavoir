@@ -23,12 +23,12 @@
     {
       "tag": "10dec1911",
       "patterns": ["Qu'est-il arrivé le 10 décembre 1911 ?", "Événements du 10 décembre 1911", "10 décembre 1911", "10/12/1911", "Marie Curie", "Prix Nobel de chimie"],
-      "responses" : ["Voici un lien vers notre article la concernant : ../categories/personnalité/10121911.html"]
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/personnalité/10121911.html'>10 décembre 1911</a>"]
     },
     {
       "tag": "11fev1990",
       "patterns": ["Qu'est-il arrivé le 11 février 1990 ?", "Événements du 11 février 1990", "11 février 1990", "11/02/1990", "Nelson Mandela", "Libération de Nelson Mandela"],
-      "responses" : ["Voici un lien vers notre article la concernant :"]
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/personnalité/11021990.html'>11 février 1990</a>"]
     },
     {
       "tag": "fallback",

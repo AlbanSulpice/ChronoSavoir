@@ -79,9 +79,9 @@ function showMessage(message, type){
 
     // Définit le contenu du paragraphe en fonction du type de message
     if (type === "bot") {
-        messageParagraph.textContent = "Bot : " + message;
+        messageParagraph.innerHTML = "Bot : " + message;
     } else if (type === "user") {
-        messageParagraph.textContent = "User : " + message;
+        messageParagraph.innerHTML = "User : " + message;
     }
     // Ajoute le nouveau paragraphe au chatBox
     chatBox.appendChild(messageParagraph);
