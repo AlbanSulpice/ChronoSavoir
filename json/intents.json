@@ -23,12 +23,72 @@
     {
       "tag": "10dec1911",
       "patterns": ["Qu'est-il arrivé le 10 décembre 1911 ?", "Événements du 10 décembre 1911", "10 décembre 1911", "10/12/1911", "Marie Curie", "Prix Nobel de chimie"],
-      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/personnalité/10121911.html'>10 décembre 1911</a>"]
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/personnalité/10121911.html'>Double Lauréate du Prix Nobel : Marie Curie</a>"]
     },
     {
       "tag": "11fev1990",
       "patterns": ["Qu'est-il arrivé le 11 février 1990 ?", "Événements du 11 février 1990", "11 février 1990", "11/02/1990", "Nelson Mandela", "Libération de Nelson Mandela"],
-      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/personnalité/11021990.html'>11 février 1990</a>"]
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/personnalité/11021990.html'>11 février 1990 : La libération de Nelson Mandela</a>"]
+    },
+    {
+      "tag": "28aout1963",
+      "patterns": ["Qu'est-il arrivé le 28 aout 1963", "Événements du 28 août 1963", "28 août 1963", "28/08/1963", "Martin Luther King", "I have a dream"],
+      "responses": ["Voici un lien vers notre article concernant votre demande : <a href='../categories/personnalité/28081963.html'>28 août 1963 : Un discours qui a marqué l'histoire</a>"]
+    },
+    {
+      "tag": "6aout1945",
+      "patterns": ["Hiroshima","Bombe atomique","Seconde Guerre mondiale","États-Unis","Japon", "6 août 1945"],
+      "responses": ["Voici un lien vers notre article concernant votre demande : <a href='../categories/guerresreformes/06081945.html'>Hiroshima, 6 août 1945: Le Jour Où Le Monde A Changé</a>"]
+    },
+    {
+      "tag": "mur_berlin_1989",
+      "patterns": ["Chute du Mur de Berlin 1989", "9 novembre 1989", "Berlin 1989", "novembre 1989"],
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/guerresreformes/09111989.html'>La Chute du Mur de Berlin: Le 9 Novembre 1989, Une Nuit qui a Changé l'Europe</a>"]
+    },
+    {
+      "tag": "11sept_2001",
+      "patterns": ["11 septembre 2001", "Attentats World Trade Center", "11/09/2001"],
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/guerresreformes/11092001.html'>11 Septembre 2001: Les Attentats du World Trade Center</a>"]
+    },
+    {
+      "tag": "israel_1948",
+      "patterns": ["Naissance d'Israël 1948", "Première Guerre Israélo-Arabe", "1948 Israël", "Israël"],
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/guerresreformes/14051948.html'>Naissance d'Israël et Première Guerre Israélo-Arabe: Un Tournant Historique en 1948</a>"]
+    },
+    {
+      "tag": "alger_1830",
+      "patterns": ["Invasion d'Alger en 1830", "Début de la conquête française de l'Algérie", "Algérie 1830", "algérie", "alger"],
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/guerresreformes/14061830.html'>L'invasion d'Alger en 1830: Le Début de la Conquête Française de l'Algérie</a>"]
+    },
+    {
+      "tag": "abolition_esclavage_1848",
+      "patterns": ["Abolition de l'esclavage en France", "27 avril 1848", "Esclavage 1848", "esclavage", "avril 1848"],
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/guerresreformes/27041848.html'>L'Abolition de l'Esclavage en France: Le 27 Avril 1848</a>"]
+    },
+    {
+      "tag": "ellis_island_1892",
+      "patterns": ["1er janvier 1892", "Ouverture d'Ellis Island", "Ellis Island 1892"],
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/grandsevenements/01011892.html'>Ouverture d'Ellis Island, New York, porte d'entrée majeure pour les immigrants aux États-Unis jusqu'en 1954</a>"]
+    },
+    {
+      "tag": "colossus_1944",
+      "patterns": ["Mise en service du Colossus", "Premier ordinateur programmable", "Colossus 1944", "Colossus"],
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/grandsevenements/05021944.html'>Mise en Service du Colossus: Le Premier Ordinateur Programmable, 1944</a>"]
+    },
+    {
+      "tag": "apollo_11_1969",
+      "patterns": ["Apollo 11", "20 juillet 1969", "Premier voyage sur la lune"],
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/grandsevenements/20071969.html'>Apollo 11: Le Premier Voyage sur la Lune, 20 Juillet 1969</a>"]
+    },
+    {
+      "tag": "covid_2020",
+      "patterns": ["COVID-19", "Pandémie 2020", "30 janvier 2020"],
+      "responses" : ["Voici un lien vers notre article concernant votre demande : <a href='../categories/grandsevenements/30012020.html'>COVID-19: La Pandémie Déclarée Urgence de Santé Publique Internationale, 30 Janvier 2020</a>"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "aide"],
+      "responses": ["Afin d'utiliser le chatbot, rentrez une date ou un évènement parmi ceux que nous proposons pour l'instant afin de pouvoir être redirigé vers une page qui en parle? Par exemple, écrivez : avril 1848, Apollo 11, Marie Curie ou encore COVID-19"]
     },
     {
       "tag": "fallback",

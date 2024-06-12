@@ -80,25 +80,37 @@ input[type="email"],
 input[type="date"],
 input[type="password"],
 select {
-    width: calc(100% - 160px);
+    width: calc(100% - 190px);
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
+input[type="text2"]{
+    width: calc(120% - 170px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
 input[type="radio"],
 input[type="checkbox"] {
     margin-right: 10px;
+    display: inline;
 }
 
 form.frequence,
 form.sujets,
 form.evenement {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 button[type="submit"] {
+    display: block;
+    margin: 0 auto;
     background-color: #0056b3;
     color: #ffffff;
     padding: 10px 20px;

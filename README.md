@@ -1,7 +1,11 @@
 # ChronoSavoir
-projet transverse
-Un dossier ChronoSavoir qui contient 4 sous dossiers :
-- articles : qui contient tous les articles sous forme HTML
+Ce projet contient 6 sous dossiers :
+- categories : qui contient tous les articles sous forme HTML
 - css : qui contient tous les codes css pour chaque page du site
-- HTML : qui contient les 3 pages "principales" du site accueil, inscription et seConnecter
-- img : qui contient les images affichés sur le site
+- HTML : qui contient le code html des différentes pages du site
+- img : qui contient les images affichées sur le site
+- javascript : qui contient le code du chatbot en .js
+- json : qui contient le fichier intents.json qui permet de faire fonctionner le chatbot
+
+Afin d'utiliser le bot, il suffit d'entrer une date, une année ou le nom d'un évènement qui est répertorié sur notre site, 
+et un lien s'affichera et vous redirigera vers la page qui vous intéresse.
